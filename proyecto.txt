@@ -1,0 +1,14 @@
+Práctica N°4 - Seguridad Digital y Ciberseguridad
+Proyecto: BlackCat Ciberseguridad
+
+Archivos incluidos:
+- index.html (Página principal)
+- ciberceguridad.html (Sección de servicios)
+- styles.css (Hoja de estilos)
+
+Descripción:
+Este proyecto presenta el sitio web de BlackCat Ciberseguridad, con secciones dedicadas al Red Team, Blue Team, Purple Team y TI. 
+El diseño aplica principios de seguridad digital y estructura HTML/CSS moderna.
+
+Conclusión:
+La práctica demuestra la integración de conceptos de ciberseguridad en un entorno web funcional y visualmente atractivo.

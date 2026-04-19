@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackCat Cibersecurity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">BlackCat Cibersecurity</a>
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ciberseguridad.html">Ciberseguridad</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="inicio" class="banner">
+        <div class="carousel">
+            <div class="carousel-slide"></div>
+            <div class="carousel-slide"></div>
+            <div class="carousel-slide"></div>
+        </div>
+        <div class="banner-content">
+            <h1>Bienvenido a BlackCat Cibersecurity</h1>
+            <p>Protegemos tus datos y defendemos tu empresa contra amenazas digitales.</p>
+            <a href="#servicios" class="btn">Ver Servicios</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <img src="imagenes/Red%20Team.png" alt="Red Team">
+                    <h3>Red Team</h3>
+                    <p>Simulación de ataques avanzados para identificar vulnerabilidades.</p>
+                </div>
+                <div class="servicio-card">
+                    <img src="imagenes/Blue%20Team.png" alt="Blue Team">
+                    <h3>Blue Team</h3>
+                    <p>Defensa proactiva y respuesta a incidentes 24/7.</p>
+                </div>
+                <div class="servicio-card">
+                    <img src="imagenes/Purple%20team.png" alt="Purple Team">
+                    <h3>Purple Team</h3>
+                    <p>Integración de Red y Blue Team para máxima protección.</p>
+                </div>
+                <div class="servicio-card">
+                    <img src="imagenes/TI.png" alt="Consultoría">
+                    <h3>Consultoría TI</h3>
+                    <p>Asesoramiento especializado en seguridad informática.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2>Clientes</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="imagenes/Potosina.png" alt="Cervecería Potosina">
+                    <div class="galeria-overlay">
+                        <p>Cervecería Potosina</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="imagenes/alcaldia%20Potosina.png" alt="Alcaldía de Potosí">
+                    <div class="galeria-overlay">
+                        <p>Alcaldía de Potosí</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="imagenes/Ferroviaria%20SRL.png" alt="Ferroviaria SRL">
+                    <div class="galeria-overlay">
+                        <p>Ferroviaria SRL</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="imagenes/Jesus%20de%20Nazareth.png" alt="Unidad Educativa">
+                    <div class="galeria-overlay">
+                        <p>U.E. Jesús de Nazaret</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contacto-content">
+                <div class="formulario">
+                    <h3>Envíanos un mensaje</h3>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" id="correo" name="correo" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="direccion">Dirección:</label>
+                            <input type="text" id="direccion" name="direccion" placeholder="Tu dirección" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar</button>
+                    </form>
+                </div>
+
+                <div class="resultado">
+                    <h3>Información de Contacto</h3>
+                    <div class="info-contacto">
+                        <p><strong>Teléfono:</strong> +591 12345678</p>
+                        <p><strong>Correo:</strong> info@blackcat.com</p>
+                        <p><strong>Dirección:</strong> Universidad Autónoma Tomás Frías</p>
+                        <p><strong>Horario:</strong> Lunes a Viernes 9:00 - 18:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 BlackCat Cibersecurity. Todos los derechos reservados.</p>
+            <p>Práctica N°4 - Diseño Web HTML y CSS</p>
+        </div>
+    </footer>
+
+</body>
+</html>
