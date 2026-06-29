@@ -1,4 +1,4 @@
-Práctica N°4 - Seguridad Digital y Ciberseguridad
+Práctica N°10 - Seguridad Digital y Ciberseguridad
 Proyecto: BlackCat Ciberseguridad
 
 Archivos incluidos:
